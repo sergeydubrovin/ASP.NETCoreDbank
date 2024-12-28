@@ -1,0 +1,237 @@
+[
+  {
+    "ContainingType": "Dbank.Controllers.AccountsController",
+    "Method": "Post2",
+    "RelativePath": "api/accounts/authentication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "Dbank.Models.AccountsClass",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.AccountsController",
+    "Method": "Post",
+    "RelativePath": "api/accounts/authorization",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "Dbank.Models.AccountsClass",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.AccountsController",
+    "Method": "Get2",
+    "RelativePath": "api/accounts/partner",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.AccountsController",
+    "Method": "Get",
+    "RelativePath": "api/accounts/welcome",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.BalancesController",
+    "Method": "Get",
+    "RelativePath": "api/balances/balance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.BalancesController",
+    "Method": "Post2",
+    "RelativePath": "api/balances/currencyconverter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.BalancesController",
+    "Method": "Post",
+    "RelativePath": "api/balances/depositcalc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "period",
+        "Type": "System.UInt32",
+        "IsRequired": false
+      },
+      {
+        "Name": "depositAmount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.BalancesController",
+    "Method": "Get2",
+    "RelativePath": "api/balances/writeoffs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.PaymentsController",
+    "Method": "Get",
+    "RelativePath": "api/payments/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.PaymentsController",
+    "Method": "Get2",
+    "RelativePath": "api/payments/get2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.PaymentsController",
+    "Method": "Post",
+    "RelativePath": "api/payments/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.PaymentsController",
+    "Method": "Post2",
+    "RelativePath": "api/payments/post2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.ProfilesController",
+    "Method": "Get",
+    "RelativePath": "api/profiles/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.ProfilesController",
+    "Method": "Get2",
+    "RelativePath": "api/profiles/get2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.ProfilesController",
+    "Method": "Post",
+    "RelativePath": "api/profiles/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.ProfilesController",
+    "Method": "Post2",
+    "RelativePath": "api/profiles/post2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.UsersController",
+    "Method": "Get",
+    "RelativePath": "api/users/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.UsersController",
+    "Method": "Get2",
+    "RelativePath": "api/users/get2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.UsersController",
+    "Method": "Post",
+    "RelativePath": "api/users/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.UsersController",
+    "Method": "Post2",
+    "RelativePath": "api/users/post2",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

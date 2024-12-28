@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aZ1/18MDC44=",
+  "dgSpecHash": "dpV34soFSDk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\RiderProjects\\Dbank\\Dbank\\Dbank.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Source\\Repos\\ASP.NETCore_Dbank\\Dbank\\Dbank.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.11\\microsoft.aspnetcore.openapi.8.0.11.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

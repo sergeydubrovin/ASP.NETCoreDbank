@@ -1,3 +1,4 @@
+using Dbank.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Dbank.Controllers;
@@ -5,27 +6,35 @@ namespace Dbank.Controllers;
 [Route("api/balances")]
 public class BalancesController : BaseApiContoller
 {
-    [HttpGet("get")]
-    public IActionResult Get()
+    [HttpGet("balance")]
+    public IActionResult Get(string message)
     {
-        return Ok();
+        if(message.Equals("мой баланс", 
+                          StringComparison.OrdinalIgnoreCase))
+          return Ok(BalancesClass.Format());
+
+        return BadRequest();
     }
 
-    [HttpGet("get2")]
-    public IActionResult Get2()
+    [HttpGet("writeoffs")]
+    public IActionResult Get2(string message)
     {
-        return Ok();
+        if(message.Equals("история списаний и пополнения", 
+                          StringComparison.OrdinalIgnoreCase))
+          return Ok(BalancesClass.Writeoffs);
+        
+        return BadRequest();
     }
 
-    [HttpPost("post")]
-    public IActionResult Post()
-    {
-        return Ok();
+    [HttpPost("depositcalc")]
+    public IActionResult Post(uint period, decimal depositAmount)
+    {   
+        return Ok(BalancesClass.CalcAmount(period, depositAmount));
     }
 
-    [HttpPost("post2")]
+    [HttpPost("currencyconverter")]
     public IActionResult Post2()
     {
-        return Ok();
+        return Ok(BalancesClass.CurrencyConverter());
     }
 }

@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|c:\\users\\pc\\source\\repos\\asp.netcore_dbank\\dbank\\controllers\\balancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|solutionrelative:dbank\\controllers\\balancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|c:\\users\\pc\\source\\repos\\asp.netcore_dbank\\dbank\\models\\balancesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|solutionrelative:dbank\\models\\balancesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BalancesClass.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Models\\BalancesClass.cs",
+              "RelativeDocumentMoniker": "Dbank\\Models\\BalancesClass.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Models\\BalancesClass.cs",
+              "RelativeToolTip": "Dbank\\Models\\BalancesClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:48:00.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BalancesController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Controllers\\BalancesController.cs",
+              "RelativeDocumentMoniker": "Dbank\\Controllers\\BalancesController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Controllers\\BalancesController.cs",
+              "RelativeToolTip": "Dbank\\Controllers\\BalancesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T09:47:49.467Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
