@@ -1,3 +1,4 @@
+using Dbank.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Dbank.Controllers;
@@ -5,22 +6,29 @@ namespace Dbank.Controllers;
 [Route("api/users")]
 public class UsersController : BaseApiContoller
 {
-    [HttpGet("get")]
+    [HttpGet("id")]
     public IActionResult Get()
     {
-        return Ok();
+        return Ok(UsersClass.Id);
     }
 
-    [HttpGet("get2")]
-    public IActionResult Get2()
+    [HttpGet("passportinfo")]
+    public IActionResult Get2(string message)
     {
-        return Ok();
+        if(message.Equals("Серия и номер паспорта",
+           StringComparison.OrdinalIgnoreCase))
+        return Ok(UsersClass.Passport);
+
+        return BadRequest();
     }
 
-    [HttpPost("post")]
-    public IActionResult Post()
+    [HttpPost("userinfo")]
+    public IActionResult Post(UsersClass user)
     {
-        return Ok();
+        if (user.CardNumber.Length == 16)
+            return Ok(user);
+        
+        return BadRequest("Неправильный формат номера карты.");
     }
 
     [HttpPost("post2")]

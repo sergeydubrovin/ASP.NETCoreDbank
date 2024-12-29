@@ -136,8 +136,8 @@
   },
   {
     "ContainingType": "Dbank.Controllers.PaymentsController",
-    "Method": "Post",
-    "RelativePath": "api/payments/post",
+    "Method": "Post2",
+    "RelativePath": "api/payments/post2",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -146,12 +146,18 @@
   },
   {
     "ContainingType": "Dbank.Controllers.PaymentsController",
-    "Method": "Post2",
-    "RelativePath": "api/payments/post2",
+    "Method": "Post",
+    "RelativePath": "api/payments/transaction",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "pay",
+        "Type": "Dbank.Models.PaymentsClass",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -197,7 +203,7 @@
   {
     "ContainingType": "Dbank.Controllers.UsersController",
     "Method": "Get",
-    "RelativePath": "api/users/get",
+    "RelativePath": "api/users/id",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -207,21 +213,17 @@
   {
     "ContainingType": "Dbank.Controllers.UsersController",
     "Method": "Get2",
-    "RelativePath": "api/users/get2",
+    "RelativePath": "api/users/passportinfo",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Dbank.Controllers.UsersController",
-    "Method": "Post",
-    "RelativePath": "api/users/post",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "message",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -232,6 +234,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Dbank.Controllers.UsersController",
+    "Method": "Post",
+    "RelativePath": "api/users/userinfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "Dbank.Models.UsersClass",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

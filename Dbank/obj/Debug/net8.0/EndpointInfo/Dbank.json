@@ -199,11 +199,30 @@
         }
       }
     },
-    "/api/payments/post": {
+    "/api/payments/transaction": {
       "post": {
         "tags": [
           "Payments"
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentsClass"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentsClass"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PaymentsClass"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -271,7 +290,7 @@
         }
       }
     },
-    "/api/users/get": {
+    "/api/users/id": {
       "get": {
         "tags": [
           "Users"
@@ -283,10 +302,19 @@
         }
       }
     },
-    "/api/users/get2": {
+    "/api/users/passportinfo": {
       "get": {
         "tags": [
           "Users"
+        ],
+        "parameters": [
+          {
+            "name": "message",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -295,11 +323,30 @@
         }
       }
     },
-    "/api/users/post": {
+    "/api/users/userinfo": {
       "post": {
         "tags": [
           "Users"
         ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsersClass"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsersClass"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UsersClass"
+              }
+            }
+          }
+        },
         "responses": {
           "200": {
             "description": "OK"
@@ -330,6 +377,46 @@
             "nullable": true
           },
           "accountPassword": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PaymentsClass": {
+        "type": "object",
+        "properties": {
+          "transferAddress": {
+            "type": "string",
+            "nullable": true
+          },
+          "recipientAddress": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UsersClass": {
+        "type": "object",
+        "properties": {
+          "sername": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "patronymic": {
+            "type": "string",
+            "nullable": true
+          },
+          "age": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cardNumber": {
             "type": "string",
             "nullable": true
           }

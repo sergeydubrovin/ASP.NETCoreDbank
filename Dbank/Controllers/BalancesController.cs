@@ -19,7 +19,7 @@ public class BalancesController : BaseApiContoller
     [HttpGet("writeoffs")]
     public IActionResult Get2(string message)
     {
-        if(message.Equals("история списаний и пополнения", 
+        if(message.Equals("история списаний и начислений", 
                           StringComparison.OrdinalIgnoreCase))
           return Ok(BalancesClass.Writeoffs);
         

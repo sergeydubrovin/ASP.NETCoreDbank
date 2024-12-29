@@ -1,3 +1,4 @@
+using Dbank.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Dbank.Controllers;
@@ -17,10 +18,13 @@ public class PaymentsController : BaseApiContoller
         return Ok();
     }
 
-    [HttpPost("post")]
-    public IActionResult Post()
+    [HttpPost("transaction")]
+    public IActionResult Post(PaymentsClass pay)
     {
-        return Ok();
+        if(pay.TransferAddress.Length == 11) 
+           return Ok(pay);
+
+        return BadRequest("Неверные данные получателя.");
     }
 
     [HttpPost("post2")]

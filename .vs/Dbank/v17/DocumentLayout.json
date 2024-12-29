@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|c:\\users\\pc\\source\\repos\\asp.netcore_dbank\\dbank\\controllers\\balancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|solutionrelative:dbank\\controllers\\balancescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|c:\\users\\pc\\source\\repos\\asp.netcore_dbank\\dbank\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|solutionrelative:dbank\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|c:\\users\\pc\\source\\repos\\asp.netcore_dbank\\dbank\\models\\balancesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|solutionrelative:dbank\\models\\balancesclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|c:\\users\\pc\\source\\repos\\asp.netcore_dbank\\dbank\\models\\usersclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAD78BED-7D8B-4A3A-8B2C-9F93680F324E}|Dbank\\Dbank.csproj|solutionrelative:dbank\\models\\usersclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BalancesClass.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Models\\BalancesClass.cs",
-              "RelativeDocumentMoniker": "Dbank\\Models\\BalancesClass.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Models\\BalancesClass.cs",
-              "RelativeToolTip": "Dbank\\Models\\BalancesClass.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Dbank\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Dbank\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T09:48:00.568Z",
+              "WhenOpened": "2024-12-29T11:13:32.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BalancesController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Controllers\\BalancesController.cs",
-              "RelativeDocumentMoniker": "Dbank\\Controllers\\BalancesController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Controllers\\BalancesController.cs",
-              "RelativeToolTip": "Dbank\\Controllers\\BalancesController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UsersClass.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Models\\UsersClass.cs",
+              "RelativeDocumentMoniker": "Dbank\\Models\\UsersClass.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ASP.NETCore_Dbank\\Dbank\\Models\\UsersClass.cs",
+              "RelativeToolTip": "Dbank\\Models\\UsersClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T09:47:49.467Z",
+              "WhenOpened": "2024-12-29T11:09:34.424Z",
               "EditorCaption": ""
             }
           ]

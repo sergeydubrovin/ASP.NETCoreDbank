@@ -6,7 +6,7 @@ public class BalancesClass
     static public string Writeoffs { get; set; } =
                     "Списания: \n28.12.24 -18.101Р" +
                     "\n23.12.24 -601Р \n18.12.24 -38.363Р" +
-                    "\nПополнения: \n23.12.24 +2.800Р" +
+                    "\nНачисления: \n23.12.24 +2.800Р" +
                     "\n20.12.24 +7.900Р \n19.12.24 +8.000Р";
 
     const decimal InterestRate = 0.19M;
